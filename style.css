@@ -125,7 +125,7 @@ ul li a {
     transition: background 0.3s;
 }
 
-/* pseud-selector */
+/* pseudo-selector */
 
 ul li a:hover {
     background: var(--surface-color-hover);
