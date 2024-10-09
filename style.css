@@ -35,6 +35,7 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    height: 100vh;
 
 }
 
@@ -164,6 +165,17 @@ footer {
     padding: 24px 0;
     text-align: center;
     font-size: 14px;
+}
+/* media queries*/
+
+@media (min-widht:700px) {
+    :root {
+        --bg-url: url(./assets/bgDark.jpg);
+    }
+
+    .light {
+        --bg-url: url(./assets/bgLight.jpg);
+    }
 }
 
 /* animations*/
